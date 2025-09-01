@@ -1,4 +1,4 @@
-#let accent_state = state("accent", rgb("#ba0404"))
+#let accent_state = state("accent", rgb("#af062a"))
 #let font_state = state("font", "Source Sans 3")
 #let font_size_state = state("font_size", 11pt)
 #let font_color_state = state("font_color", rgb("#050505"))
@@ -119,6 +119,34 @@
   ]
   )
 }
+
+#let project_item(
+  name: "sample Project",
+  tech_used: "c#, java",
+  date: "June 1900",
+  description: "None"
+) = {
+  set block(above: 0.5em, below: 0.3em)
+  pad(left: 1em, right: 0.5em, box[
+    #grid(
+      columns: (3fr, 1fr),
+      row-gutter: 0em,
+      align(left)[
+        *#name* - #tech_used
+      ],
+      context align(right)[
+        _#text(accent_state.get(), date)_ 
+      ]
+    )
+    // if provided, print the description below
+    #if description != none { 
+      par(leading: 0.3em)[
+        #text(description)
+      ]
+    }
+  ])
+}
+
 
 #let exp_item(
   name: "Sample Workplace",
