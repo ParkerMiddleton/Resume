@@ -1,6 +1,6 @@
 # My Resume
 
-This is the first version of my resume based on a template by [Brayden Johnsson](https://github.com/F1scherman). \
+This is the first version of my resume based on a template by [Brayden Jonsson](https://github.com/F1scherman). \
 [Here's a link to Brayden's template if you wish to try it for yourself](https://github.com/F1scherman/resume_template). \
 
  # Slight changes from the template
