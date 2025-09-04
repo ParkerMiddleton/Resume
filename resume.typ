@@ -10,7 +10,7 @@
 #set_variables(rgb("#ba0404"), "Source Sans 3", 11pt, rgb("#050505"))
 
 #show: resume
-
+#v(0.6em)
 #header(
   name: "Parker Middleton",
   title: "Computer Science Student, AI Emphasis",
@@ -23,6 +23,8 @@
   site: "parker-middleton-portfolio.com",
 )
 
+#v(0.6em)
+
 #resume_heading[Education]
 #edu_item(
   name: "University of Utah",
@@ -33,78 +35,69 @@
   [#text(weight:600, "Courses:") Software Practice I & II, Computer Systems, Practical Machine Learning, Algorithms, Databas Systems, \ Linear Algebra, Human Centered Design, Data Analysis, Mobile App Programming (Android), Web Development ]
 )
 
-#v(1cm);
+#v(0.6em);
 
 #resume_heading("Skills")
 #skill_item(
   category: "Programming",
-  skills: "Angular, C/C++, C#, HTML/CSS, Java, JavaScript/TypeScript, Kotlin, Python, SQL, x86"
+  skills: "C/C++, C#, HTML, CSS, Java, JavaScript, Kotlin, Python, SQL, TypeScript, x86"
 )
 #skill_item(
   category: "Software",
-  skills: "Android Studio, Docker, Eclipse, Firebase, Git/Github, Google Suite, Jetpack Compose, LaTeX, Linux, MVC, MVVM, .NET, PyTorch, Qt Creator, TCP/IP, Typst, Visual Studio, VSCode, Windows" 
+  skills: "Android Studio, Docker, Eclipse, Firebase, Git/Github, Jetpack Compose, LaTeX, Linux, MVC, MVVM, .NET, PyTorch, Qt Creator, TCP/IP, Typst, Visual Studio, VSCode, Windows" 
 )
 #skill_item(
   category: "Soft Skills",
   skills: "Communication, Confidential Information Security, Customer Service, Documentation, Inventory, Money Management/Handling, Presentation, Teaching, Teamwork, Time Management"
 )
-#v(1cm);
+#v(0.6em);
 #resume_heading[Projects]
 
-#project_item(
-  name: "Simple Sheet: Spreadsheet Application",
-  tech_used: "C#, .NET MAUI, MVC",
-  date: "October 2023",
-  description: "A lightweight Excel-style spreadsheet application that lets users quickly create and organize data, with support for formula evaluation between cells."
-)
-#v(0.3em)
+#v(0.4em)
 #project_item(
   name: "Neon Snakes: Multiplay Snake Battle Arena",
-  tech_used: "C#, .NET MAUI, TCP/IP, JSON, MVC",
+  tech_used: "C#, .NET MAUI, TCP/IP, JSON, MVC, XML",
   date: "December 2023",
-  description: "Players compete in real-time to grow their snakes and dominate the game world, all while avoiding rivals, creating a dynamic and strategic multiplayer battle experience."
+  "Developed a TCP/IP wrapper enabling seamless client-server communication.",
+  "Sent, received, and parsed JSON objects to transmit movement commands and render real-time world state.",
+  "Constructed an MVC design architecture on top of a client-server pattern that appropriately enforced separation of concerns.",
+  "Defined configurable game settings in XML to let server owners adjust snake attributes and arena layout"
+)
 
-)
-#v(0.3em)
-#project_item(
-  name: "Sprite Animator",
-  tech_used: "C++, Qt Creator, Slots & Signals",
-  date: "April 2024",
-  description: "Design your own pixel art and animate it frame by frame. Combine multiple frames to create smooth, dynamic animations, giving full creative control over your pixel designs."
-)
-#v(0.3em)
+#v(0.5em)
 #project_item(
   name: "Bar Blunder: Cocktail Creation Simulator",
-  tech_used: "C++, Qt Creator, LiquidFun, Box2D, Model-View",
+  tech_used: "C++, Qt Creator, LiquidFun, Box2D, Agile",
   date: "May 2024",
-  description: "Designed to teach adults mixology, this cocktail creation simulator uses liquid physics to help users craft drinks with the correct pour and ingredients."
+  "Designed an educational application targeted toward college students to teach the basics of craft cocktail creation.",
+  "Leveraged LiquidFun (built on the Box2D physics engine) to incorporate a real-time pouring mechanic adhering to professional bartending standards.", 
+  "Incorporated accessibility settings to broaden appeal across desktop platforms.",
+  "Practiced Agile methodologies with a six person development team, meeting regularly and delivering sprint goals on schedule",
 )
 
-#v(0.3em)
-#project_item(
-  name: "Learning Management System Backend",
-  tech_used: "C#, .NET, MySQL, LINQ",
-  date: "May 2024",
-  description: "A database backend for a university Learning Management System, enforcing constraints and managing course, student, and enrollment data."
-)
-
-#v(0.3em)
+#v(0.5em)
 #project_item(
   name: "Draw on the Go",
   tech_used: "Kotlin, Android Studio, Firebase, SQLite, MVVM",
   date: "December 2024",
-  description: "An Android application for creating drawings on the go. Users can store their drawings locally or upload them to the cloud for other app users to view."
+  "Developed a mobile drawing application for Android devices centered around basic MS Paint-style drawings.",
+  "Authorized and authenticated users with Firebase and implemented cloud-based storage for community-shared drawings.",
+  "Built safe CRUD operations atop an MVVM architecture, ensuring lifecycle-aware and thread-safe behavior.",
+  "Optimized user-specific drawing storage using SQLite for local-only content.",
 )
 
-#v(0.3em)
+#v(0.5em)
 #project_item(
-  name: "TA Grading Applicaiton",
-  tech_used: "HTML, CSS, JavaScript, Python, Django",
+  name: "TA Grading Web Application",
+  tech_used: "HTML, CSS, JavaScript, Django, Python, AWS",
   date: "May 2025",
-  description: "A web application designed to simplify grading for TAs. Users can submit assignments as students, grade as TAs, or manage content as administrators."
+  "Created a website functioning as a medium for submitting, grading and creating assignments in a college course.",
+  "Enforced authentication and authorization using Django's built in tools centered around form handling",
+  "Defined different behaviors based on the role of the logged in user, creating varying degrees of scope.",
+  "Manipulated data with JavaScript allowing for users to hypothesize grades for assignments determing which score is necessary for a desired grade in the course"
 )
 
-#v(1cm);
+#v(0.6em);
 
 #resume_heading[Work Experience]
 #exp_item(
@@ -112,11 +105,14 @@
   role: "Manager, Bartender",
   date: "September 2014 - Present",
   location: "Dallas, TX / Salt Lake City, UT",
-  [Gained a strong work ethic while building advanced communication and customer service skills, and honed the ability to thrive in team-oriented environments.]
+  [Gained advanced communication and customer service skills.],
+  [Honed my ability to thrive in team-oriented environments.],
+  [Learned the value of hard work, showing up, and the impact of a great attitude.],
+  
 )
 
  
  
 
-
+#v(0.3em)
 #text(datetime.today().display("[month repr:long] [day] [year]"), size: 0.8em)

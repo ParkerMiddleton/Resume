@@ -124,10 +124,12 @@
   name: "sample Project",
   tech_used: "c#, java",
   date: "June 1900",
-  description: "None"
+  ..details
 ) = {
+  //block spacing
   set block(above: 0.5em, below: 0.3em)
   pad(left: 1em, right: 0.5em, box[
+    //header row
     #grid(
       columns: (3fr, 1fr),
       row-gutter: 0em,
@@ -138,12 +140,7 @@
         _#text(accent_state.get(), date)_ 
       ]
     )
-    // if provided, print the description below
-    #if description != none { 
-      par(leading: 0.3em)[
-        #text(description)
-      ]
-    }
+    #list(..details)
   ])
 }
 
