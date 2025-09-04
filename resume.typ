@@ -55,7 +55,7 @@
 
 #v(0.4em)
 #project_item(
-  name: "Neon Snakes: Multiplay Snake Battle Arena",
+  name: "Neon Snakes: Multiplayer Snake Battle Arena",
   tech_used: "C#, .NET MAUI, TCP/IP, JSON, MVC, XML",
   date: "December 2023",
   "Developed a TCP/IP wrapper enabling seamless client-server communication.",
