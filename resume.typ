@@ -17,9 +17,9 @@
   phoneNumber: "214-668-7275",
   email: "Parker.Middleton96@gmail.com",
   linkedinLink: "linkedin.com/in/parker-middleton",
-  linkedinUsername: "LinkedIn: Parker-Middleton",
+  linkedinUsername: "linkedin.com/in/parker-middleton",
   githubLink: "github.com/ParkerMiddleton",
-  githubUsername: "GitHub: ParkerMiddleton",
+  githubUsername: "github.com/ParkerMiddleton",
   site: "parker-middleton-portfolio.com",
 )
 
@@ -108,7 +108,7 @@
   [Integrate and enforce alcohol policies to ensure guest safety and maintain restaurant compliance.],
 )
 #exp_item(
-  name: "Kellys Craft Tavern",
+  name: "Kelly's Craft Tavern",
   role: "Manager & Bartender",
   date: "February 2019 - March 2020",
   location: "Frisco, TX",

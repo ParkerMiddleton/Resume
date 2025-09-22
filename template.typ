@@ -54,10 +54,10 @@
       #text(title, size:0.9em) \
       #v(-8pt)
       #text(phoneNumber, 0.9em) |
-      #link("mailto:" + email)[#text(email + " ", size: 0.8em)] |
-      #link("https://" + site)[#text(site + " ", 0.8em)] |
-      #link("https://" + linkedinLink)[#text(linkedinUsername + " ", size:0.8em)] |
-      #link("https://" + githubLink)[#text(githubUsername + " ", size:0.8em)]
+      #text(email, size: 0.8em)|
+      #text(site, 0.8em) |
+      #text(linkedinUsername, size:0.8em) |
+      #text(githubUsername, size:0.8em)
     ]
   )
   v(-8pt)
