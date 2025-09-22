@@ -36,26 +36,6 @@
   set text(size: 2em)
   [*#name*]
 }
-
-#let linkedin = text(font: "FontAwesome")[#symbol(
-  "\u{f08c}"
-)]
-#let github = text(font: "FontAwesome")[#symbol(
-  "\u{f09b}"
-)]
-#let home = text(font: "FontAwesome")[#symbol(
-  "\u{f015}"
-  )]
-#let envelope = text(font: "FontAwesome")[#symbol(
-  "\u{f0e0}"
-)]
-#let mobile = text(font: "FontAwesome")[#symbol(
-  "\u{f10b}"
-)]
-#let share = text(font: "FontAwesome")[#symbol(
-  "\u{f14d}"
-)]
-
 #let header(
   name: "Jake Ryan",
   title: "Student",
@@ -73,11 +53,11 @@
       #name_header(name) \
       #text(title, size:0.9em) \
       #v(-8pt)
-      #text(mobile+ " " +phoneNumber, 0.9em) |
-      #link("mailto:" + email)[#text(envelope + " " + email + " ", size: 0.8em)#text(share, size: 0.6em)] |
-      #link("https://" + site)[#text(home + " " + site + " ", 0.8em)#text(share, size: 0.6em)] |
-      #link("https://" + linkedinLink)[#text(linkedin + " "+ linkedinUsername + " ", size:0.8em)#text(share, size: 0.6em)] |
-      #link("https://" + githubLink)[#text(github + " " +githubUsername + " ", size:0.8em)#text(share, size: 0.6em)]
+      #text(phoneNumber, 0.9em) |
+      #link("mailto:" + email)[#text(email + " ", size: 0.8em)] |
+      #link("https://" + site)[#text(site + " ", 0.8em)] |
+      #link("https://" + linkedinLink)[#text(linkedinUsername + " ", size:0.8em)] |
+      #link("https://" + githubLink)[#text(githubUsername + " ", size:0.8em)]
     ]
   )
   v(-8pt)

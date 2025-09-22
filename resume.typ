@@ -16,10 +16,10 @@
   title: "Computer Science Student, AI Emphasis",
   phoneNumber: "214-668-7275",
   email: "Parker.Middleton96@gmail.com",
-  linkedinLink: "linkedin.com/in/parker-middleton-7169b1222/",
-  linkedinUsername: "Parker Middleton",
+  linkedinLink: "linkedin.com/in/parker-middleton",
+  linkedinUsername: "LinkedIn: Parker-Middleton",
   githubLink: "github.com/ParkerMiddleton",
-  githubUsername: "ParkerMiddleton",
+  githubUsername: "GitHub: ParkerMiddleton",
   site: "parker-middleton-portfolio.com",
 )
 
@@ -79,9 +79,9 @@
   tech_used: "C++, Qt Creator, LiquidFun, Box2D, Agile",
   date: "May 2024",
   "Designed an educational application targeted toward college students to teach the basics of craft cocktail creation.",
-  "Leveraged LiquidFun, a liquid physics library, to incorporate a real-time pouring mechanic adhering to professional bartending standards.", 
+  "Leveraged LiquidFun physics to incorporate a real-time pouring mechanic adhering to professional bartending standards.", 
   "Incorporated accessibility settings to broaden appeal across desktop platforms.",
-  "Implemented Agile methodologies with a six-person development team, meeting regularly and delivering sprint goals on schedule.",
+  "Implemented Agile methodologies with a six-person development team delivering sprint goals on schedule.",
 )
 
 
@@ -104,20 +104,15 @@
   role: "Bartender & Mid-Management",
   date: "July 2020 - Present",
   location: "Cottonwood Heights, UT",
-  [Collaborate with colleagues to curate cocktail menus utilizing thirty different house ingredients.],
-  [Integrate and enforce alcohol policies advantageous for both restaurant liability and guest safety.],
+  [Curate cocktail menus incorporating 30+ house ingredients, boosting customer engagement.],
+  [Integrate and enforce alcohol policies to ensure guest safety and maintain restaurant compliance.],
 )
 #exp_item(
   name: "Kellys Craft Tavern",
   role: "Manager & Bartender",
-  date: "Feburary 2019 - March 2020",
+  date: "February 2019 - March 2020",
   location: "Frisco, TX",
   [Built relationships with vendors and distributors that uniquely diversified food and beverage items.],
   [Interviewed for various roles carefully choosing candidates best fit for optimal performance and culture.]
 )
 
- 
- 
-
-#v(0.6em)
-#text(datetime.today().display("[month repr:long] [day] [year]"), size: 0.8em)
