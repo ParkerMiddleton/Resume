@@ -20,7 +20,7 @@
   linkedinUsername: "Parker Middleton",
   githubLink: "github.com/ParkerMiddleton",
   githubUsername: "ParkerMiddleton",
-  site: "#",
+  site: "parker-middleton-portfolio.com",
 )
 
 #v(0.6em)
@@ -104,8 +104,8 @@
   role: "Bartender & Mid-Management",
   date: "July 2020 - Present",
   location: "Cottonwood Heights, UT",
-  [Collaborated with colleagues to curate perfect cocktail menus utilizing thirty different house ingredients.],
-  [Integrated and enforced alcohol policies advantageous for both restaurant liability and guest safety.],
+  [Collaborate with colleagues to curate cocktail menus utilizing thirty different house ingredients.],
+  [Integrate and enforce alcohol policies advantageous for both restaurant liability and guest safety.],
 )
 #exp_item(
   name: "Kellys Craft Tavern",
