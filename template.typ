@@ -88,13 +88,16 @@
     columns: (3fr, 1fr),
     align(left)[
       *#name* \
+     #v(-7.2pt);
       #text(emph(degree), size: 0.9em) \
     ],
     context align(right)[
       _#text(accent_state.get(), location)_ \
+     #v(-7.2pt);
       #text(date, size: 0.9em)
     ]
   )
+  #v(2pt);
   #list(..details)
   ]
   )
@@ -107,7 +110,7 @@
   ..details
 ) = {
   //block spacing
-  set block(above: 0.5em, below: 0.3em)
+  set block(above: 0em, below: 0.3em)
   pad(left: 1em, right: 0.5em, box[
     //header row
     #grid(
@@ -120,8 +123,11 @@
         _#text(accent_state.get(), date)_ 
       ]
     )
+    #v(2pt);
     #list(..details)
+    #v(1pt);
   ])
+  
 }
 
 
@@ -138,13 +144,16 @@
         columns: (3fr, 1fr),
         align(left)[
           *#role* \
+          #v(-7.2pt);
           _#name _
         ],
         context align(right)[
           _#text(accent_state.get(), location)_ \
+          #v(-7.2pt);
           #text(date, size: 0.9em)
         ]
       )
+       #v(2pt);
       #list(..points)
     ])
 }
