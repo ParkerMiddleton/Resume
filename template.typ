@@ -54,7 +54,7 @@
       #text(title, size:0.9em) \
       #v(-8pt)
       #text(phoneNumber, 0.9em) |
-      #text(email, size: 0.8em)|
+      #text(email, size: 0.8em) |
       #text(site, 0.8em) |
       #text(linkedinUsername, size:0.8em) |
       #text(githubUsername, size:0.8em)
@@ -132,7 +132,7 @@
   location: "Foo, BA",
   ..points
 ) = {
-    set block(above: 0.5em, below: 0.3em)
+    set block(above: 0.5em, below: 0.1em)
     pad(left: 1em, right: 0.5em, box[
       #grid(
         columns: (3fr, 1fr),

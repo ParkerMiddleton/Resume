@@ -30,9 +30,9 @@
   name: "Bachelor of Science in Computer Science, AI Emphasis",
   degree: "University of Utah",
   location: "Salt Lake City, UT",
-  date: "Aug 2023 - May 2026",
-  [#text(weight:600, "Courses:") Software Practice I & II, Computer Systems, Practical Machine Learning, Algorithms, Database Systems, \ Linear Algebra, Human Centered Design, Data Analysis, Mobile App Programming (Android), Web Development ],
-  [#text(weight:600, "Deans List:") Fall 2024, Spring 2025]
+  date: "August 2023 - May 2026",
+  [#text(weight:600, "Courses:") Software Practice I & II, Computer Systems, Practical Machine Learning, Algorithms, Database Systems, \ Linear Algebra, Human-Centered Design, Data Analysis, Mobile App Programming (Android), Web Development ],
+  [#text(weight:600, "Dean's List:") Fall 2024, Spring 2025]
 )
 
 #v(0.6em);
@@ -57,8 +57,8 @@
   tech_used: "HTML, CSS, JavaScript, Django, Python, AWS",
   date: "May 2025",
   "Created a website functioning as a medium for submitting, grading and creating assignments in a college course.",
-  "Enforced authentication and authorization using Django's built in tools centered around form handling.",
-  "Defined different behaviors based on the role of the logged in user, creating varying degrees of scope.",
+  "Enforced authentication and authorization using Django's built-in tools centered around form handling.",
+  "Defined different behaviors based on the role of the logged-in user, creating varying degrees of scope.",
   "Manipulated data with JavaScript allowing users to hypothesize grades to determine what is necessary for a desired grade."
 )
 
@@ -69,7 +69,7 @@
   date: "December 2024",
   "Developed a mobile drawing application for Android devices centered around basic MS Paint-style drawings.",
   "Authorized and authenticated users with Firebase and implemented cloud-based storage for community-shared drawings.",
-  "Built safe CRUD operations atop an MVVM architecture, ensuring lifecycle-aware and thread-safe behavior.",
+  "Implemented safe CRUD operations atop an MVVM architecture, ensuring lifecycle-aware and thread-safe behavior.",
   "Optimized user-specific drawing storage using SQLite for local-only content.",
 )
 
@@ -90,7 +90,7 @@
   name: "Neon Snakes: Multiplayer Snake Battle Arena",
   tech_used: "C#, .NET MAUI, TCP/IP, JSON, MVC, XML",
   date: "December 2023",
-  "Developed a server based competitive snake game with capabilities of hosting hundreds of clients on a single server.",
+  "Developed a server-based competitive snake game with  the capability of hosting hundreds of clients on a single server.",
   "Sent, received, and parsed JSON objects to transmit movement commands and render real-time world state.",
   "Constructed an MVC design architecture on top of a client-server pattern that appropriately enforced separation of concerns.",
   "Defined configurable game settings in XML to let server owners adjust snake attributes and arena layout."
@@ -107,12 +107,13 @@
   [Curate cocktail menus incorporating 30+ house ingredients, boosting customer engagement.],
   [Integrate and enforce alcohol policies to ensure guest safety and maintain restaurant compliance.],
 )
+#v(0.4em);
 #exp_item(
   name: "Kelly's Craft Tavern",
   role: "Manager & Bartender",
   date: "February 2019 - March 2020",
   location: "Frisco, TX",
   [Built relationships with vendors and distributors that uniquely diversified food and beverage items.],
-  [Interviewed for various roles carefully choosing candidates best fit for optimal performance and culture.]
+  [Interviewed for various roles, carefully choosing candidates best fit for optimal performance and culture.]
 )
 
