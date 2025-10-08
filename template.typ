@@ -77,8 +77,8 @@
 }
 
 #let edu_item(
-  name: "Sample University", 
-  degree: "B.S in Bullshit", 
+  degree: "Sample University", 
+  name: "B.S in Bullshit", 
   location: "Foo, BA", 
   date: "Aug. 1600 - May 1750",
   ..details
@@ -130,7 +130,6 @@
   
 }
 
-
 #let exp_item(
   name: "Sample Workplace",
   role: "Worker",
@@ -145,7 +144,8 @@
         align(left)[
           *#role* \
           #v(-7.2pt);
-          _#name _
+         
+          #text(weight: "regular", style: "italic", name)// <--- GUARANTEED ITALICS
         ],
         context align(right)[
           _#text(accent_state.get(), location)_ \
